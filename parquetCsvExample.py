@@ -2,7 +2,7 @@
 Written by Martin Karlsson
 www.martinkarlsson.io
 
-How more efficient is it to work with Parquet files compared to CSV?.
+How more efficient is it to work with Parquet files compared to CSV?
 """
 
 import pandas as pd
