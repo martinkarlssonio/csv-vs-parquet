@@ -29,7 +29,7 @@ if __name__ == '__main__':
         newDfCsv.to_csv('output/stockDictNew{}.csv'.format(epic),index=False)
     endCsv = int(time.time())
     
-    # Create dataframes from Parquest files
+    # Create dataframes from Parquet files
     startParquet = int(time.time())
     for epic in epics:
         stockDataDfParquet = pd.read_parquet('output/stockDict{}.parquet'.format(epic))
